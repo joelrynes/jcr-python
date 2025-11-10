@@ -1,9 +1,14 @@
 # LinkedIn Learning Python course by Joe Marini
 # Example file for complex types
 
-
 # Dictionary: a key-value data structure
-
+mydict = {
+  "one" : 1,
+  "two" : 2,
+  3 : "three",
+  4.5 : ["four","point","five"]
+}
+print(mydict)
 
 # dictionaries are accessed via keys
 
